@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class Lesson01Ex02Controller {
-
+	
+	// http://localhost/lesson01/ex02
 	@RequestMapping("/lesson01/ex02")
 	public String ex02() {
 		//return되는 String은 HTML의 경로
